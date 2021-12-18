@@ -1,0 +1,13 @@
+ 1038  git status
+ 1042  git status
+ 1043  git add README.md
+ 1044  git add Resources/whale_navs.csv
+ 1045  git add risk_return_analysis.ipynb
+ 1046  git status
+ 1047  git commit 'initial seed of jupyter notebook, README and csv data file
+ 1048  git status
+ 1049  git commit -m 'initial seed of jupyter notebook, README and csv data file'
+ 1050  git log
+ 1051  git status
+ 1052  git push origin main
+ 1053  history | grep git
