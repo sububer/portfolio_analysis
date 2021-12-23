@@ -7,7 +7,7 @@ An analysis of portfolio risk and return.
 ## Analysis 
 
 #### DataSets
-Daily  Soros, Tiger, Paulson and Berkshire, were analyzed against the S&P 500, over the period of Oct 2014 -> Sept 2020. The data source can be found in [whale_navs.csv](./Resources/whale_navs.csv).
+Soros, Tiger, Paulson and Berkshire funds' daily close info was analyzed against the S&P 500, over the period of Oct 2014 -> Sept 2020. The data source can be found in [whale_navs.csv](./Resources/whale_navs.csv).
 
 
 #### Assumptions
