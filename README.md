@@ -7,13 +7,20 @@ An analysis of portfolio risk and return.
 ## Analysis 
 
 #### DataSets
-TBD
+Daily  Soros, Tiger, Paulson and Berkshire, were analyzed against the S&P 500, over the period of Oct 2014 -> Sept 2020. The data source can be found in [whale_navs.csv](./Resources/whale_navs.csv).
+
 
 #### Assumptions
-TBD
+
+Each fund was analyzed for performance, volatility, risk, risk-return profile, and portfolio diversity against the S&P 500. 
+
+When calculating the Sharpe Ratios, it was assumed that the risk-free rate is essentially zero.
+
+When doing the portfolio diversification analysis, the two portfolios with the highest Sharpe ratios were chosen to analyze.
 
 #### Summary
-TBD
+
+In short, the BERKSHIRE HATHAWAY INC fund had the highest cumulative return, the highest sharpe ratio, and a modest rolling beta compared to the S&P500, so it was the recommended portfolio fund.
 
 See details and visualizations in the notebook [risk_return_analysis.ipynb](./risk_return_analysis.ipynb)
 
@@ -29,6 +36,7 @@ Additionally, it requires:
 - [pandas](https://pandas.pydata.org/)
 - [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)
 - [seaborn](https://seaborn.pydata.org/tutorial.html)
+- [numpy](https://numpy.org/)
 
 See [installation](#installation) below for specifics.
 
